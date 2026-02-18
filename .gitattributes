@@ -1,0 +1,3 @@
+MinecraftX/library/* linguist-vendored
+MinecraftX/src/*.h	linguist-language=C++
+MinecraftX/shader/*.vs linguist-language=GLSL
