@@ -153,3 +153,5 @@ MinecraftX/
 - **Apple Silicon Homebrew path issues**
   Use `/opt/homebrew/include` and `/opt/homebrew/lib` instead of `/usr/local/...`.
 
+---
+**Note
