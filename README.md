@@ -67,7 +67,7 @@ Set the run working directory to the **inner** `MinecraftX/` folder (the one tha
 - `$(PROJECT_DIR)/MinecraftX`
 
 In **Xcode → Product → Scheme → Edit Scheme → Run → Options**:
-- ✅ **Use custom working directory** → select `.../MinecraftX/MinecraftX`
+- **Use custom working directory** → select `.../MinecraftX/MinecraftX`
 
 ### 3) Build & Run
 Press **⌘R** in Xcode.
