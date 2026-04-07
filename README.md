@@ -5,7 +5,7 @@ This is a **learning/demo project** focused on chunked voxel rendering, simple p
 
 ---
 
-## ✨ What’s inside
+## What’s inside
 - Chunked voxel world (16×16 columns, stacked sub-chunks) with **Perlin-noise terrain generation**
 - **Block placement & removal** (basic “Minecraft” loop)
 - Transparent materials (water/glass) + non-cube crossing faces (torch/grass/flowers)
@@ -17,7 +17,7 @@ This is a **learning/demo project** focused on chunked voxel rendering, simple p
 
 ---
 
-## 🧰 Requirements
+## Requirements
 - macOS (Xcode target is set to **macOS 10.13** deployment target)
 - Xcode (open the included `.xcodeproj`)
 - Homebrew (recommended) for native libs:
@@ -29,7 +29,7 @@ This is a **learning/demo project** focused on chunked voxel rendering, simple p
 
 ---
 
-## 🚀 Quick Start (open + run)
+## Quick Start (open + run)
 
 ~~~bash
 set -euo pipefail
@@ -74,7 +74,7 @@ Press **⌘R** in Xcode.
 
 ---
 
-## 🎮 Controls
+## Controls
 - **Mouse**: look around
 - **W/A/S/D**: move
 - **Space**
@@ -104,14 +104,14 @@ Press a number to choose what the arrow **↑ / ↓** controls:
 
 ---
 
-## ♻️ World persistence / reset
+## World persistence / reset
 Chunks are read/written as **binary files** named like `x_z` (for example `0_0`) in the app’s **working directory**.
 
 - To reset the world: delete the generated `*_*` chunk files in that directory.
 
 ---
 
-## 📁 Project structure (high level)
+## Project structure (high level)
 
 ~~~text
 MinecraftX/
@@ -133,7 +133,7 @@ MinecraftX/
 
 ---
 
-## 🛠 Customize
+## Customize
 - **Screen size / block IDs / constants**: `MinecraftX/src/game_settings.h`
 - **Terrain generation & world features** (height map, herbs, clouds): `MinecraftX/src/ChunkData.cpp`
 - **Rendering + input** (FOV, shadow mapping, camera): `MinecraftX/src/Render.cpp`
@@ -143,7 +143,7 @@ MinecraftX/
 
 ---
 
-## 🧯 Troubleshooting
+## Troubleshooting
 - **Build fails: `assimp/Importer.hpp` not found**
   Install assimp (`brew install assimp`) and make sure Header Search Paths include your Homebrew include dir.
 - **Linker errors for `glew` / `assimp` / `glfw`**
